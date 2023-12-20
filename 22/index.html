@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Learn JavaScript</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <style>
+
+        .ui-menu {
+            width: 200px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('#menu').menu();
+        });
+    </script>
+</head>
+<body>
+
+<ul id="menu">
+    <li>Home</li>
+    <li>Software</li>
+    <li>Music</li>
+    <li>Technology
+        <ul>
+            <li>Information Technology
+                <ul>
+                    <li>Computer Technology</li>
+                    <li>Mobile Technology</li>
+                    <li>Wireless Technology</li>
+                    <li>Cable Technology</li>
+                </ul>
+            </li>
+            <li>Chemical Technology</li>
+            <li>Mechanical Technology</li>
+            <li>Electrical Technology</li>
+        </ul>
+    </li>
+    <li>Contact Us</li>
+</ul>
+
+</body>
+</html>
